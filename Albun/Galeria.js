@@ -39,3 +39,31 @@ leftBtn.addEventListener("click", e =>{
 closeImg.addEventListener("click", e =>{
   fullImgBox.style.display = "none";
 })
+
+//--------------------------------------------------------------//
+
+window.addEventListener('keydown', (e)=>{
+  let tecla=e.key
+
+  switch(tecla){
+    case 'ArrowRight':
+      if (indexImg >= listaImg.length-1){
+        indexImg = -1;
+      }
+      indexImg++;
+      imgElement.src = listaImg[indexImg].src;
+      break;
+
+    case 'ArrowLeft':
+      if (indexImg <= 0){
+        indexImg = listaImg.length;
+      }
+      indexImg--;
+      imgElement.src = listaImg[indexImg].src;
+      break;
+
+    case 'Escape':
+      fullImgBox.style.display = "none";
+      break;
+  }
+})
