@@ -1,0 +1,209 @@
+/*-------------------selector universal en CSS. selecciona todos los elementos en un documento--------------------*/
+ *{
+   padding: 0;                /* No hay espacio entre el contenido y el cuadro exterior borde */
+   margin: 0;                 /* No hay existe margenes entre el borde y el contenido */
+   box-sizing: border-box;    /* Permite incluir el relleno y el borde en el ancho y alto totales de un elemento */
+  }
+  
+  
+/*------------------Estilo y diseño fon de pagina web------------------*/
+  body{
+       background-color: black;         /* Establecemos Color de fondo para la pagina web */
+       font-family: "recently used", sans-serif;
+      }
+  
+  
+/*------------------Estilo y diseño de encabezado------------------*/
+  
+  /* Estilos del pagina web */
+  .Encabezado{
+              display: block;
+              width: 1200px;          /* Establece el ancho de un elemento */
+              max-width: 100vw;       /* Definimos el ancho máximo que un elemento puede tener (vw = %) */
+              margin: auto;           /* Difeinimos que el margen se aplique automaticamente */
+              overflow: hidden;       /* Evitamos desplazamiento orizontal no deseado */
+              position: relative;     /* cambia la posición del elemento HTML en relación con el lugar donde aparece normalmente */
+              text-align: center;     /* Ubicar texto en el centro*/
+             }
+  
+  /* Estilos del Titulo pagina web */
+  .Encabezado h1{
+                 float: right;                /* Colocamos el elemento a la derecha de su contenedor */
+                 color: #f2f2f2;            /* Texto de color blanco */
+                 font-size: 50px;             /* Epecificamos el tamaño del texto */
+                 margin-top: 45px;            /* Difeinimos un margen superior */
+                 margin-right: 10px;
+                }
+  
+  /* Estilos del logo de la pagina web */
+  .Encabezado .logo{
+                    float: left;           /* Colocamos el elemento a la izquierda de su contenedor */
+                    width: 130px;          /* Establecemos el ancho de la imagen */
+                    height: 130px;         /* Establecemos largo de la imagen */
+                    margin-top: 3px;      /* Difeinimos un margen superior */
+                    margin-bottom: 10px;
+                   }
+  
+  
+/*------------------Estilo y diseño de barra de navegacion------------------*/
+  
+  /* Estilo de barra de navegacion */
+  nav{
+      background-color: #ca0000;    /* Agregamos un color */
+      width: 1200px;                    /* Establece el ancho de un elemento */
+      max-width: 100vw;                 /* Definimos el ancho máximo que un elemento puede tener (vw = %) */
+      margin: auto;                     /* Difeinimos que el margen se aplique automaticamente */
+      margin-bottom: 5px;              /* Difeinimos un margen inferior de 10 px */
+      overflow: hidden;                 /* Evitamos desplazamiento orizontal no deseado */
+      position: relative;               /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+     }
+  
+  /* Estilo del logo de la barra de navegacion */
+  nav .logo{
+            display: none;              /* Desactiva la visualizacion del elemento */
+           }
+  
+  /* Estilo del titulo de la barra de navegacion */
+  nav .titulo{
+              display: none;           /* Desactiva la visualizacion del elemento */
+             }
+  
+  /* Estilo de la lista de la barra de navegacion */
+  nav .list{
+            float: right;              /* Colocamos el elemento al lado derecho*/
+            display: block;            /* Definimos el elemento como bloque */
+            padding: 0;                /* No hay espacio entre el contenido y el cuadro exterior borde */
+            margin-top: 14px;          /* Establecemos un margen superior para elemento */
+            margin-bottom: 14px;       /* Establecemos un margen inferior para elemento */
+           }
+     
+  /* Estilo del texto de la lista de la barra de navegacion*/
+  nav .list a{
+              color: #f2f2f2;             /* Texto de color blanco */
+              text-align: center;           /* Colocamos el texto al centro del bloque */
+              padding: 14px 16px;           /* Agregamos margenes "sup-inf2 e "der-isq" */
+              font-size: 20px;              /* Epecificamos el tamaño del textp */
+              text-decoration: none;        /* Eliminamos el decorado que se encuentre en el texto */
+             }
+  
+  /* :hover permite la alteracion del diseño al pasar el cursor ensima del elemento*/
+  nav .list a:hover{
+                    background-color: rgb(232, 83, 83);    /* Establecemos el color de fondo */
+                   }
+  
+  /* Estilo del cuadro de checkbox */
+  #toggle{
+          display: none;            /* Desactiva la visualizacion del elemento */
+         }
+  
+  /* Estilo de barra de menu */
+  nav .menu{
+            display: none;          /* Desactiva la visualizacion del elemento */
+            position: absolute;     /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+            right: 2%;              /* Posición del lado derecho del elemento contando desde el borde derecho de la ventana */
+            top: 20%;               /* Posición del lado superior del elemento contando desde el borde superior de la ventana */
+           }
+    
+  /* Estilo del icono del menu */
+  nav .menu .menu-icono{
+                        width: 50px;              /* Establecemos ancho de la imagen */
+                        height: 40px;             /* Establecemos largo de la imagen */
+                        margin-right: 5px;        /* Establecemos un margen a la derecha del elemento */
+                        transition: all .3s ease-in-out;
+                       }
+
+
+/*------------------PIE DE PAGINA------------------*/
+
+ .footer{
+         background-color: #ca0000d4;    /* Definimos un color de fondo para el elemento */
+         display: flex;                    /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+         width: 1200px;                    /* Establece el ancho de un elemento */
+         max-width: 100vw;                 /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+         margin: auto;                     /* Difeinimos que el margen se aplique automaticamente */
+         margin-top: 150px;                /* Definimos un margen superior para el elemento */
+         position: relative;               /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+        }
+
+.footer .text{                        
+              display: flex;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+              color: white;     /* Cambiamos el color del texto a blanco */
+              column-gap: 20px;   /* Especifica el espacio entre las columnas en un diseño de cuadrícula, flexbox o de varias columnas */
+              margin-inline: 5px;
+             }
+     
+.footer .text .box{
+                   margin-top: 20px;
+                   margin-left: 90px;
+                   margin-right: 20px;
+                  }
+
+.footer .box .log{
+                  width: 100%;           /* Establece el ancho de un elemento */
+                  height: 100%;          /* Establece el largo de un elemento */
+                  margin-left: 10%;
+                  text-align: center;    /* Ubicar texto en el centro de su bloque */
+                 }
+
+.footer .box .log img{
+                      width: 200px;         /* Establecemos el ancho de la imagen */
+                      height: 200px;        /* Establece el largo de un elemento */
+                     }
+
+.footer .text .box h1{
+                      font-size: 30px;
+                     }
+
+.footer .text .box .nave{
+                         display: block;
+                         margin-top: 10px;        /* Definimos un margen superior para el elemento */
+                         margin-bottom: 30px;     /* Definimos un margen inferior para el elemento */
+                         text-align: left;        /* Ubicar texto del lado izquierdo de su bloque */
+                        }
+
+.footer .box .nave a{
+                     display: block;          /* Definimos el elemento como bloque */
+                     color: white;          /* Definimos el color del elemento */
+                     width: 110px;            /* Establece el ancho de un elemento */
+                     font-size: 20px;         /* Especificamos el tamaño del texto */
+                     text-decoration: none;
+                    }
+
+/* "hover" se usa para que alguna alteracion a la pagina web */
+.footer .box .nave a:hover{
+                           color: black;     /* Definimos el color del elemento */
+                          }
+
+.footer .box .conta{
+                    text-align: left;        /* Ubicar texto del lado izquierdo de su bloque */
+                    font-size: 18px;         /* Especificamos el tamaño del texto */
+                    margin-top: 10px;
+                   }
+
+.footer .box .conta p{
+                      margin-bottom: 8px;
+                     }
+
+.footer .box .conta .num{
+                         color: white;
+                         font-size: 22px;    /* Especificamos el tamaño del texto */
+                         text-decoration: none;
+                        }
+
+.footer .box .conta .num:hover{
+                               color: black;     /* Definimos el color del elemento */
+                              }
+
+.footer .box .red-soc a{
+                        display: block;           /* Definimos el elemento como bloque */
+                        color: white;           /* Definimos el color del elemento */
+                        font-size: 20px;          /* Especificamos el tamaño del texto */
+                        margin-top: 15px;         /* Definimos un margen superior para el elemento */
+                        margin-left: 10px;
+                        text-decoration: none;    /* Eliminamos la decoracion del texto */
+                       }
+
+/* "hover" se usa para que alguna alteracion a la pagina web */
+.footer .box .red-soc a:hover{
+                              color: black;      /* Definimos el color del elemento */
+                             }
