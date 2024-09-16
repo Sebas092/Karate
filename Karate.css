@@ -1,0 +1,268 @@
+/*------------------Estilo y diseño de carruseñ de imagen------------------*/
+
+/* Estilo de Carrusel de imagenes */
+.slider{
+        width: 1200px;          /* Establecemos el ancho del elemento */
+        max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+        height: 530px;          /* Establecemos largo de la imagen */
+        margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+        position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+        overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+       }
+
+/* Estilo de lista de imagenes */
+.slider .list{
+              display: flex;          /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+              width: max-content;     /* La propiedad max-width define el ancho máximo de un elemento */
+              height: 100%;           /* Establecemos largo de la imagen */
+              position: absolute;     /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+              transition: 2s;         /* Proporcionan una forma de controlar la velocidad de la animación  */
+             }
+  
+/* Estilo de imagenes */
+.slider .list img{
+                  width: 1200px;        /* Establecemos el ancho de la imagen */
+                  max-width: 100vw;     /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+                  height: 100%;         /* Establecemos largo de la imagen */
+                  /*object-fit: cover;    /* Le dice al elemento que escale su contenido para que se ajuste al aspecto del elemento contenedor */
+                 }
+ 
+/* Estilo general de botones */
+.boton{
+       display: flex;                   /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+       top: 45%;                        /* Posición del lado superior del elemento contando desde el borde superior de la ventana */
+       left: 5%;                        /* posición del lado izquierdo del elemento contando desde el borde izquierdo de la ventana */
+       width: 90%;                      /* Establecemos el ancho de la imagen */
+       position: absolute;              /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+       justify-content: space-between;  /* Define cómo el navegador distribuye el espacio entre los elementos */
+      }
+
+/* diseño interno del boton */
+.boton button{
+              width: 50px;              /* Establecemos el ancho de la imagen */
+              height: 50px;             /* Establecemos largo de la imagen */
+              border-radius: 50%;       /* crear rectángulos con bordes redondeados, elipses, un círculo perfecto, etc. */
+              background-color: rgba(5, 5, 5, 0.333);   /* Especificamos el color de fondo del boton creado */
+              color: #fff;            /* Le damos color al texto interno del boton */
+              font-size: 30px;
+              border: none;             /* Llimina todos los bordes de un elemento y lo muestra sin ningún borde */
+              font-family: monospace;   /* Especificamos el tipo de letra quq queremos */
+              font-weight: bold;        /* Establece qué tan grosor de los caracteres en el texto (blod = negritas) */
+             }
+
+/* Estilo de puntos como imagenes */
+.puntos{
+        display: flex;               /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+        width: 100%;                 /* Establecemos el ancho de la imagen */
+        bottom: 10px;                /* Establece la posición vertical de un elemento posicionado. */
+        left: 0;                     /* posición del lado izquierdo del elemento contando desde el borde izquierdo de la ventana */
+        margin: 0;                   /* Se utiliza para centrar automáticamente un elemento dentro de su elemento contenedor */
+        padding: 0;                  /* El espacio entre el borde de un elemento y el contenido del elemento */
+        position: absolute;          /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+        justify-content: center;     /* Alinea los elementos del contenedor flexible cuando no utilizan todo el espacio disponible */
+       }
+  
+/* Estilo de puntos en listado */
+.puntos li{
+           background-color: #fff;    /* Color de fondo o reyeno del punto */
+           list-style: none;            /* Especifica el tipo de marcador de elemento de lista en una lista */
+           width: 10px;                 /* Establecemos el ancho de la imagen */
+           height: 10px;                /* Establecemos largo de la imagen */
+           margin: 10px;                /* Se utiliza para centrar automáticamente un elemento dentro de su elemento contenedor */
+           border-radius: 20px;         /* Crear rectángulos con bordes redondeados, elipses, un círculo perfecto, etc. */
+           transition: 2s;              /* Proporcionan una forma de controlar la velocidad de la animación  */
+          }
+ 
+/* Estilo del punto en accion a la imagen */
+.puntos li.activo{
+                  width: 30px;     /* Establecemos el ancho de la imagen */
+                 }
+                 
+
+/*------------------Estilo y diseño de Introduccion------------------*/
+
+.intro{
+       width: 1200px;          /* Establece el ancho de un elemento */
+       max-width: 100vw;       /* Definimos el ancho máximo que un elemento puede tener (vw = %) */ 
+       margin: auto;           /* Difeinimos que el margen se apique automaticamente */
+       margin-top: 70px;       /* Establecemos un margen en la zona superior del elemento */
+       position: relative;     /* cambia la posición del elemento HTML en relación con el lugar donde aparece normalmente */
+       text-align: center;     /* Ubicar texto en el centro*/
+      }
+
+.intro .title{
+              color: #fff;                 /* Color de fondo o reyeno del punto */
+              font-size: 18px;               /* Epecificamos el tamaño del texto */
+              margin-bottom: 80px;           /* Establecemos un margen en la zona inferior del elemento */
+             }
+
+.intro .text{                        
+             display: flex;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+             color: white;     /* Cambiamos el color del texto a blanco */
+             column-gap: 50px;   /* Especifica el espacio entre las columnas en un diseño de cuadrícula, flexbox o de varias columnas */
+            }
+
+.intro .text .columna{
+                      width: 1200px;    /* Establece el ancho de un elemento */
+                     }
+
+.intro .text .columna img{
+                          width: 100px;          /* Establece el ancho de un elemento */
+                          height: 80px;          /* Establece el largo de un elemento */
+                          border-radius: 20%;    /* Redondea las esquinas del borde exterior de un elemento */
+                          overflow: hidden;      /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+                          margin-bottom: 20px;   /* Definimos un margen inferior para el elemento */
+                         }
+
+.intro .text .columna h1{
+                         margin-bottom: 30px;     /* Definimos un margen inferior para el elemento */
+                         font-size: 35px;         /* Epecificamos el tamaño del texto */
+                        }
+
+.intro .text .columna p{
+                        margin: 10px 10px;        /* Definimos margenes sup-inf e izq-der*/
+                        font-size: 20px;          /* Epecificamos el tamaño del texto */
+                       }
+
+
+/*---------------------Estilo y diseño de Invitacion---------------------*/
+
+.invita{
+        width: 1200px;          /* Establecemos el ancho del elemento */
+        max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+        margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+        position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+        overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+       }
+
+.invita .text{                        
+              display: flex;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+              color: white;     /* Cambiamos el color del texto a blanco */
+              column-gap: 50px;   /* Especifica el espacio entre las columnas en un diseño de cuadrícula, flexbox o de varias columnas */
+             }
+
+.invita .text .colum{
+                     margin-top: 60px;
+                     width: 100%;     /* Colocamos el texto del lado isquierdo */
+                    }
+
+.invita .text .colum img{
+                        width: 100%;      /* Establece el ancho de un elemento */
+                        height: 50%;
+                       }
+
+.invita .text .colum .der{
+                          width: 100%;      /* Establece el ancho de un elemento */
+                          height: 50%;
+                         }
+
+.invita .text .colum .der .inv{
+                               font-size: 22px;    /* Epecificamos el tamaño del texto */
+                               margin-top: 30px;
+                               margin-bottom: 50px;
+                               margin-right: 10px;
+                               margin-left: 10px;
+                               text-align: center;     /* Ubicar texto en el centro*/
+                              }
+
+.invita .text .colum .der .horario{
+                                   border-style: ridge;   /* Propiedad de estilo de borde de cresta */
+                                   border-width: 5px;     /* Definimos el grosor del borde creado */
+                                   margin-right: 10px;
+                                   text-align: center;     /* Ubicar texto en el centro*/
+                                  }
+
+.invita .text .colum .der .horario h1{
+                                      font-size: 50px;    /* Epecificamos el tamaño del texto */
+                                      margin-top: 10px;   /* Definimos un margen superior para el elemento */
+                                     }
+
+.invita .text .colum .der .horario p{
+                                     margin: 10px 10px;        /* Definimos margenes sup-inf e izq-der*/
+                                     font-size: 25px;     /* Epecificamos el tamaño del texto */
+                                    }
+
+/*------------------Estilo y diseño de Perfil------------------*/
+
+.Instructores{
+              width: 1200px;          /* Establecemos el ancho del elemento */
+              max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+              margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+              position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+              overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+             }
+
+.Instructores .title{
+                     color: #fff;         /* Definimos el color del elemento */
+                     margin-top: 100px;     /* Definimos un margen inferior para el elemento */
+                     margin-left: 10px;
+                     margin-bottom: 50px;
+                    }
+
+.Instructores .perfiles{
+                        display: flex;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                        column-gap: 10%;
+                        justify-content: center;           
+                       }
+
+.Instructores .perfiles .perfil{
+                                width: 240px;               /* Establece el ancho de un elemento */
+                                height: 260px;              /* Establece el largo de un elemento */
+                                background: #ca0000d4;    /* Definimos un color de fondo para el elemento */
+                                color: #fff;              /* Definimos el color del elemento */
+                                border-radius: 10px;        /* Crear rectángulos con bordes redondeados, elipses, un círculo perfecto, etc. */
+                                margin-inline: 10px;
+                                justify-content: center;    /* Define cómo el navegador distribuye el espacio entre los elementos de contenido y alrededor de ellos */
+                               }
+
+.Instructores .perfiles .perfil .card{
+                                      width: 1000px;          /* Establecemos el ancho del elemento */
+                                      max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+                                      display: flex;
+                                      position: absolute;   /* Delimitador la posicion de un objeto por los márgenes de la página web */
+                                     }
+
+.Instructores .perfiles .perfil .card::before{
+                                              content: "";              /* Reemplaza el contenido con un valor generado */
+                                              display: flex;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                                              position: absolute;       /* Delimitador la posicion de un objeto por los márgenes de la página web */
+                                              top: 10px;                  /* Especifican el desplazamiento vertical desde su posición original */
+                                              left: 1.8%;                 /* Especifican el desplazamiento horizontal desde su posición original */
+                                              width: 20.5%;              /* Establece el ancho de un elemento */
+                                              height: 120px;            /* Establece el largo de un elemento */
+                                              border-radius: 10px;      /* Redondea las esquinas del borde exterior de un elemento */
+                                              background: black;      /* Definimos un color de fondo para el elemento */
+                                              box-shadow: 0 0 100px rgba(229, 5, 5, 0.61);   /* añade efectos de sombra alrededor del marco de un elemento */
+                                             }
+
+.Instructores .perfiles .perfil .card .img{
+                                           width: 13%;                    /* Establece el ancho de un elemento */
+                                           height: 130px;                   /* Establece el largo de un elemento */
+                                           border-radius: 50%;              /* Redondea las esquinas del borde exterior de un elemento */
+                                           z-index: 10;                     /* Establecer la visibilidad y el posicionamiento del contenido superpuesto */
+                                           transform: translateY(20px);     /* Mover un elemento verticalmente en un porcentaje específico de su propio tamaño */
+                                           border: 5px solid #000000;     /* Mostrar un borde sólido de un grosor y color especificado */
+                                           overflow: hidden;                /* Evitamos desplazamiento orizontal no deseado */
+                                           margin-inline: 5.3%;
+                                           align-items: center;
+                                          }
+
+.Instructores .perfiles .perfil .card .img img{
+                                               width: 100%;                 /* Establece el ancho de un elemento */
+                                               height: 100%;                /* Establece el largo de un elemento */
+                                               transform: translate(0, 0);   /* Mover un elemento verticalmente y horizontal en un porcentaje de su propio tamaño */
+                                              }
+
+.Instructores .perfiles .perfil .content{
+                                         transform: translateY(160px);   /* Mover un elemento verticalmente en un porcentaje específico de su propio tamaño */
+                                         display: flex;                  /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                                         flex-direction: column;         /* Utiliza para establecer la dirección del eje principal del contenedor flexible */
+                                         z-index: 20;                    /* Establecer la visibilidad y el posicionamiento del contenido superpuesto */
+                                         align-items: center;            /* Alinemos elementos en la dirección del bloque que queremos */
+                                        }
+
+.Instructores .perfiles .perfil .content p{
+                                           margin: 5px 5px;        /* Definimos margenes "sup-inf2 e "der-isq" */
+                                           font-size: 18px;        /* Especificamos el tamaño del texto */
+                                           text-align: center;
+                                          }
