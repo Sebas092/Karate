@@ -1,0 +1,200 @@
+/*------------------Estilo y de Portada------------------*/
+
+/* Estilo de Carrusel de imagenes */
+.porta{
+       width: 1200px;          /* Establecemos el ancho del elemento */
+       max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+       height: 530px;          /* Establecemos largo de la imagen */
+       margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+       position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+       overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+      }
+
+/* Estilo de lista de imagenes */
+.porta .item{
+             display: flex;          /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+             width: max-content;     /* La propiedad max-width define el ancho máximo de un elemento */
+             height: 100%;           /* Establecemos largo de la imagen */
+             position: absolute;     /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+            }
+
+/* Estilo de imagenes */
+.porta .item img{
+                 width: 1200px;        /* Establecemos el ancho de la imagen */
+                 max-width: 100vw;     /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+                 height: 100%;         /* Establecemos largo de la imagen */
+                }
+
+
+/*---------------------Estilo y diseño de Invitacion---------------------*/
+
+.historia{
+          width: 1080px;          /* Establecemos el ancho del elemento */
+          max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+          margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+          position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+          overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+         }
+
+.historia .title{
+                 color: #fff;                 /* Color de fondo o reyeno del punto */
+                 font-size: 40px;               /* Epecificamos el tamaño del texto */
+                 text-align: center;
+                 margin-top: 100px;
+                 margin-bottom: 100px;
+                }
+
+.historia .text1{                        
+                display: block;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                color: white;     /* Cambiamos el color del texto a blanco */
+                margin-bottom: 200px;
+                margin-inline: 10px;  
+               }
+
+.historia .text1 .colum-izq{
+                            float: left;                           
+                            width: 360px;       /* Colocamos el texto del lado isquierdo */
+                            height: 100%;                          
+                            margin-right: 20px;
+                            border-style: ridge;
+                            border-width: 5px;
+                            background-color: rgb(56, 56, 56);
+                           }
+
+.historia .text1 .colum-der{
+                            margin-top: 60px;
+                            width: 100%;     /* Colocamos el texto del lado isquierdo */
+                           }
+
+.historia .text1 .colum-izq img{
+                                width: 97%;      /* Establece el ancho de un elemento */
+                                height: 350px;
+                                margin-top: 5px;
+                                margin-left: 5px;
+                               }
+
+.historia .text1 .colum-izq h1{
+                               margin-left: 10px;
+                              }
+
+.historia .text1 .colum-izq h4{
+                                margin-left: 20px;
+                                margin-top: 5px;
+                                margin-bottom: 15px;
+                               }
+
+.historia .text1 .colum-izq p{
+                              margin-left: 20px;
+                              margin-bottom: 10px;
+                             }
+
+.historia .text1 .colum-der p{
+                              font-size: 25px;
+                              margin-right: 40px;
+                              margin-top: 50px;
+                             }
+
+/*--------------------------------------------------------*/
+
+.historia .text2{                       
+                 display: block;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                 color: white;     /* Cambiamos el color del texto a blanco */
+                 margin-bottom: 250px;
+                 margin-top: 100px;
+                 margin-inline: 10px;  
+                }
+
+.historia .text2 .colum-der{
+                            float: right;                           
+                            width: 360px;       /* Colocamos el texto del lado isquierdo */
+                            height: 100%;                          
+                            margin-left: 20px;
+                            border-style: ridge;
+                            border-width: 5px;
+                            background-color: rgb(56, 56, 56);
+                           }
+
+.historia .text2 .colum-izq{
+                            margin-right: 60px;
+                            width: 100%;     /* Colocamos el texto del lado isquierdo */
+                           }
+
+.historia .text2 .colum-izq p{
+                              font-size: 25px;
+                              margin-right: 40px;
+                              margin-top: 50px;
+                             }
+
+.historia .text2 .colum-der img{
+                                width: 97%;      /* Establece el ancho de un elemento */
+                                height: 400px;
+                                margin-top: 5px;
+                                margin-left: 5px;
+                               }
+
+.historia .text2 .colum-der h1{
+                               margin-left: 10px;
+                              }
+
+.historia .text2 .colum-der h4{
+                               margin-left: 20px;
+                               margin-top: 5px;
+                               margin-bottom: 15px;
+                              }
+
+.historia .text2 .colum-der p{
+                              margin-left: 20px;
+                              margin-bottom: 10px;
+                             }
+
+/*-----------------------------------*/
+
+.historia .text3{                        
+                 display: block;      /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                 color: white;     /* Cambiamos el color del texto a blanco */
+                 margin-top: 100px;
+                 margin-inline: 10px;  
+                }
+
+.historia .text3 .colum-izq{
+                            float: left;                           
+                            width: 360px;       /* Colocamos el texto del lado isquierdo */
+                            height: 100%;                          
+                            margin-right: 20px;
+                            border-style: ridge;
+                            border-width: 5px;
+                            background-color: rgb(56, 56, 56);
+                           }
+
+.historia .text3 .colum-der{
+                            margin-top: 60px;
+                            width: 100%;     /* Colocamos el texto del lado isquierdo */
+                           }
+
+.historia .text3 .colum-izq img{
+                                width: 97%;      /* Establece el ancho de un elemento */
+                                height: 400px;
+                                margin-top: 5px;
+                                margin-left: 5px;
+                               }
+
+.historia .text3 .colum-izq h1{
+                               margin-left: 10px;
+                              }
+
+.historia .text3 .colum-izq h4{
+                               margin-left: 20px;
+                               margin-top: 5px;
+                               margin-bottom: 15px;
+                              }
+
+.historia .text3 .colum-izq p{
+                              margin-left: 20px;
+                              margin-bottom: 10px;
+                             }
+
+.historia .text3 .colum-der p{
+                              font-size: 25px;
+                              margin-right: 40px;
+                              margin-top: 50px;
+                             }

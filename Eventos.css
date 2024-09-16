@@ -1,0 +1,90 @@
+/*------------------Estilo y diseño de Portada------------------*/
+
+/* Estilo de Carrusel de imagenes */
+.porta{
+       width: 1200px;          /* Establecemos el ancho del elemento */
+       max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+       height: 530px;          /* Establecemos largo de la imagen */
+       margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+       position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+       overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+      }
+
+/* Estilo de lista de imagenes */
+.porta .item{
+             display: flex;          /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+             width: max-content;     /* La propiedad max-width define el ancho máximo de un elemento */
+             height: 100%;           /* Establecemos largo de la imagen */
+             position: absolute;     /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+            }
+
+/* Estilo de imagenes */
+.porta .item img{
+                 width: 1200px;        /* Establecemos el ancho de la imagen */
+                 max-width: 100vw;     /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+                 height: 100%;         /* Establecemos largo de la imagen */
+                }
+
+
+/*------------------EVENTOS------------------*/
+
+/* Sin eventos */
+.sin_evento{
+            width: 1200px;          /* Establecemos el ancho del elemento */
+            max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+            margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+            position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+            overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+            display: none;
+           }
+
+.sin_evento .text img{
+                      width: 70%;
+                      border-radius: 40px;
+                      margin: 10% 15%;
+                     }
+
+.sin_evento .image{
+                   margin: 0% 18%;
+                  }
+
+.sin_evento .image img{
+                       width: 30%;
+                       margin-inline: 1%;
+                      }
+
+/* Com eventos */
+.evento{
+        width: 1200px;          /* Establecemos el ancho del elemento */
+        max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+        margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+        position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+        overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+       }
+
+.evento h1{
+           color: white;
+           margin-top: 50px;
+           font-size: 80px;
+          }
+
+.evento img{
+            width: 50%;
+            border-radius: 40px;
+            margin-top: 50px;
+            margin-inline: 25%;
+          }
+
+.evento p{
+          color: white;
+          width: 46%;
+          margin-top: 30px;
+          margin-inline: 28%;
+          font-size: 28px;
+         }
+
+.evento hr{
+           margin: 70px 20px;
+           border-width: 2px;
+           display: none;
+          }

@@ -1,0 +1,59 @@
+/*------------------Estilo y diseño Portada------------------*/
+
+/* Estilo de Carrusel de imagenes */
+.porta{
+       width: 1200px;          /* Establecemos el ancho del elemento */
+       max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+       height: 530px;          /* Establecemos largo de la imagen */
+       margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+       position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+       overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+      }
+
+/* Estilo de lista de imagenes */
+.porta .item{
+             display: flex;          /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+             width: max-content;     /* La propiedad max-width define el ancho máximo de un elemento */
+             height: 100%;           /* Establecemos largo de la imagen */
+             position: absolute;     /* Define la posición de un cuadro delimitador por los márgenes superior e izquierdo de la página web */
+            }
+
+/* Estilo de imagenes */
+.porta .item img{
+                 width: 1200px;        /* Establecemos el ancho de la imagen */
+                 max-width: 100vw;     /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+                 height: 100%;         /* Establecemos largo de la imagen */
+                }
+
+
+/*------------------Estilo para Albunes imagen------------------*/
+
+.Galeria{
+         width: 1200px;          /* Establecemos el ancho del elemento */
+         max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
+         margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
+         position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
+         overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
+         justify-content: center;          
+        }
+              
+.Galeria .Albun{
+                display: inline-block;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
+                justify-content: center;  
+                border-style: inset;
+                width: 360px;
+                margin: 18px;
+                margin-top: 100PX;
+                padding: 10px;
+               }
+              
+.Galeria .Albun img{
+                    width: 100%;
+                    height: 200px;
+                    user-select: none;
+                   }
+              
+.Galeria .Albun a{
+                  text-decoration: none;
+                  color: white;
+                 }
