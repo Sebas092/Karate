@@ -33,13 +33,11 @@
          max-width: 100vw;       /* definimos el ancho máximo que un elemento puede tener (vw = %) */
          margin: auto;           /* Hace que un elemento "no inline" con un ancho definido tenga márgenes automático*/
          position: relative;     /* Cambia la posición del elemento en donde normalmente estaría en el flujo de la página */
-         overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */
-         justify-content: center;          
+         overflow: hidden;       /* Ocultando elementos que se desbordan fuera del límite del elemento principal */         
         }
               
 .Galeria .Albun{
-                display: inline-block;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */
-                justify-content: center;  
+                display: inline-block;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */ 
                 border-style: inset;
                 width: 360px;
                 margin: 18px;
