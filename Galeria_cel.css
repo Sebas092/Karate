@@ -1,14 +1,30 @@
 /*----------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 880px)
+@media screen and (max-width: 1196px)
     {
+
+     .porta{
+            margin-bottom: 40px;
+           }
 /*------------------------Albunes--------------------------*/
-     .Galeria{
-              margin: 0 40px;
-             }
 
      .Galeria .Albun{
                      margin: 35px 15px;
+                     margin-left: 152px;
+                     border-width: 2px;
+                    }
+    }
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 880px)
+    {
+/*------------------------Albunes--------------------------*/
+
+     .Galeria .Albun{
+                     margin: 35px 15px;
+                     margin-left: 47px;
                      border-width: 2px;
                     }
     }
@@ -25,10 +41,11 @@
            }
 
 /*------------------------Albunes--------------------------*/
-        
-     .Galeria{
-              margin: 0 190px;
-             }
+
+    .Galeria .Albun{
+                    margin: 20px 205px;
+                    border-width: 2px;
+                   }
     }
 
 
@@ -44,12 +61,8 @@
 
 /*------------------------Albunes--------------------------*/
 
-     .Galeria{
-              margin: 0 71px;
-             }
-
      .Galeria .Albun{
-                     margin: 18px;
+                     margin: 18px 90px;
                      border-width: 2px;
                     }
     }
@@ -65,9 +78,8 @@
              height: 220px;
             }
 
-/*------------------------Albunes--------------------------*/
-        
-     .Galeria{
-              margin: 0 8px;
-             }
+     .Galeria .Albun{
+                     margin: 18px 25px;
+                     border-width: 2px;
+                    }
     }
