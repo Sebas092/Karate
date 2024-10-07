@@ -2,10 +2,15 @@
 /*
 @media screen and (max-width: 1196px)
     {
+
+     .porta{
+            margin-bottom: 40px;
+           }
 /*------------------------Albunes--------------------------*/
 /*
      .Galeria .Albun{
                      margin: 35px 15px;
+                     margin-left: 152px;
                      border-width: 2px;
                     }
     }*/
@@ -35,11 +40,11 @@
            }
 
 /*------------------------Albunes--------------------------*/
-
+/*
     .Galeria .Albun{
-                    margin: 20px 5px;
+                    margin: 20px 205px;
                     border-width: 2px;
-                   }
+                   }*/
     }
 
 
@@ -51,6 +56,14 @@
      .porta{
             height: 210px;
            }
+
+
+/*------------------------Albunes--------------------------*/
+/*
+     .Galeria .Albun{
+                     margin: 18px 90px;
+                     border-width: 2px;
+                    }*/
     }
 
 
@@ -63,4 +76,9 @@
      .porta{
              height: 220px;
             }
+/*
+     .Galeria .Albun{
+                     margin: 18px 25px;
+                     border-width: 2px;
+                    }*/
     }
