@@ -3,6 +3,9 @@
 @media screen and (max-width: 880px)
     {
 /*------------------------Albunes--------------------------*/
+     .Galeria{
+              margin: 0 48px;
+             }
 
      .Galeria .Albun{
                      margin: 35px 15px;
@@ -20,6 +23,12 @@
      .porta{
             height: 400px;
            }
+
+/*------------------------Albunes--------------------------*/
+        
+     .Galeria{
+              margin: 0 190px;
+             }
     }
 
 
@@ -34,6 +43,10 @@
 
 
 /*------------------------Albunes--------------------------*/
+
+     .Galeria{
+              margin: 0 71px;
+             }
 
      .Galeria .Albun{
                      margin: 18px;
@@ -51,4 +64,10 @@
      .porta{
              height: 220px;
             }
+
+/*------------------------Albunes--------------------------*/
+        
+     .Galeria{
+              margin: 0 8px;
+             }
     }
