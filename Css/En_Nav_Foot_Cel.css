@@ -147,6 +147,14 @@
 
 @media screen and (max-width: 540px)
     {
+/*------------------------Barra de navegacion--------------------------*/
+
+nav .titulo{
+            font-size: 21px;
+            margin-top: 15px;
+           }
+
+
 /*---------------------Pie de Pagina---------------------*/
 
      .footer{
@@ -211,9 +219,13 @@
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 345px)
+@media screen and (max-width: 398px)
     {
-/*------------------------Pie de Pagina--------------------------*/
+/*------------------------Barra de navegacion--------------------------*/
+
+     nav .titulo{
+                 display: none;
+                }
 
      nav .menu .menu-icono{
                            width: 40px;              
