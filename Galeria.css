@@ -30,18 +30,17 @@
 
 .Galeria{
          width: 1200px;
-         margin: 50px auto 50px;
+         margin: 20px auto 50px;
          display: grid;
          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
          gap: 10px;         
         }
               
 .Galeria .Albun{
-                display: inline-block;              /* Indica la capacidad de un elemento para alterar sus dimensiones y llenar el espacio disponible */ 
                 border-style: inset;
                 width: 360px;
-                margin: 18px;
-                margin-top: 100PX;
+                margin: auto;
+                margin-top: 50PX;
                 padding: 10px;
                }
               
