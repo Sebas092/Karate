@@ -222,12 +222,7 @@ nav .titulo{
 @media screen and (max-width: 398px)
     {
 /*------------------------Barra de navegacion--------------------------*/
-
-     nav .titulo{
-                 font-size: 17px;
-                 margin-top: 18px;
-                }
-
+        
      nav .menu .menu-icono{
                            width: 40px;              
                            height: 30px;     
