@@ -102,8 +102,8 @@
                  color: white;
                  float: left;
                  margin-left: 10px;
-                 margin-top: 15px;
-                 font-size: 20px;
+                 margin-top: 8px;
+                 font-size: 30px;
                 }
     
      nav .list{
@@ -115,7 +115,7 @@
                z-index: 11;
                width: auto;
                height: auto;
-               margin-bottom: 600px;
+               margin-bottom: 0;
                background-color:#ca0000;
                overflow: hidden;
                transition: all .5s ease-in-out;
@@ -123,13 +123,14 @@
     
      nav .list a{
                  display: block;
-                 margin-top: 5px;
+                 margin-top: 8px;
                  font-size: 30px;
                 }
-    
+
      nav :checked ~ .list{
                           bottom: 0;
                          }
+
      nav .menu{
                display: block;
               }
@@ -146,16 +147,6 @@
 
 @media screen and (max-width: 540px)
     {
-/*------------------------Barra de Navegacion--------------------------*/
-
-     nav .titulo{
-                 font-size: 19px;
-                }
-
-     nav .list{                 
-               margin-bottom: 300px;
-              }
-
 /*---------------------Pie de Pagina---------------------*/
 
      .footer{
@@ -194,9 +185,10 @@
     {
 /*------------------------Barra de navegacion--------------------------*/
 
-      nav .list{                 
-                margin-bottom: 250px;
-               }
+      nav .titulo{
+                  font-size: 21px;
+                  margin-top: 15px;
+                 }
 
 
 /*------------------------Pie de Pagina--------------------------*/
