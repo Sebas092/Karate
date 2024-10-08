@@ -224,7 +224,8 @@ nav .titulo{
 /*------------------------Barra de navegacion--------------------------*/
 
      nav .titulo{
-                 display: none;
+                 font-size: 17px;
+                 margin-top: 18px;
                 }
 
      nav .menu .menu-icono{
